@@ -16,7 +16,7 @@ function handleClick(valorNumero){
       {numeroPantalla}
       
       <div className='containerBotones'>
-        <Boton onClick={()=>handleClick(1) }>1</Boton>  
+        <Boton onClick={()=>handleClick(1)}>1</Boton>  
         <Boton onClick={()=>handleClick(2)}>2</Boton>
         <Boton onClick={()=>handleClick(3)}>3</Boton>
         <Boton onClick={()=>handleClick(4)}>4</Boton>
