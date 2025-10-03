@@ -6,4 +6,4 @@ function Boton ({ onClick, children }) {
   )
 }
 
-export default Boton;
+export default Boton; 
