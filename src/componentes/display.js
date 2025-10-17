@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Display = ({numero}) => {
+const Display = ({ numero, estilos }) => {
   return (
-    <h1>{numero}</h1>
+    <h1 style={estilos}>{numero}</h1>
   )
 }
 
-export default Display
+export default Display;

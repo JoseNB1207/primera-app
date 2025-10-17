@@ -1,9 +1,9 @@
-function Boton ({ onClick, children }) {
+function Boton ({ onClick, children, estilos }) {
   return (
-    <button onClick={onClick}>
+    <button onClick={onClick} style={estilos}>
       {children}
     </button>
   )
 }
 
-export default Boton; 
+export default Boton;
